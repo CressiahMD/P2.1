@@ -87,3 +87,50 @@ img{
     width: 250px;
 }
 
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+    .topnav a{
+        font-size: .8rem;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .column{
+        width: 100%;
+    }
+
+
+    
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    
+
+    .header{
+        height: 100%;
+    }
+    .topnav {
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .column{
+        width: 100%;
+    }
+
+}
